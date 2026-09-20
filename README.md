@@ -51,13 +51,18 @@ Multi-tenant storefronts with Egyptian payments (COD, InstaPay, Fawry, wallets),
 
 **Systems & data** — C / C++ (ESP32, GPGPU simulation) · Python (YOLO, OpenCV, Playwright) · MATLAB · Assembly
 
+<!-- Stats: github-readme-stats.vercel.app was returning 503 on deploy day, so
+     these use streak-stats.demolab.com + ghchart.rshah.org (both verified 200,
+     both custom-tinted to the palette). To switch back to the classic cards,
+     restore the github-readme-stats URLs with the same color params. -->
 <div align="center">
   <a href="https://github.com/Locked-Cloud">
-    <img height="158" src="https://github-readme-stats.vercel.app/api?username=Locked-Cloud&show_icons=true&title_color=C4552D&icon_color=1F7A70&text_color=1A1512&bg_color=F5EDE0&hide_border=true&include_all_commits=true" alt="Ibrahim's GitHub stats" />
+    <img height="160" src="https://streak-stats.demolab.com/?user=Locked-Cloud&hide_border=true&background=F5EDE0&ring_color=C4552D&fire_color=D9A441&currStreakNum_color=1A1512&sideNums_color=1A1512&currStreakLabel_color=C4552D&sideLabels_color=1F7A70&text_color=1A1512&dates_color=1F7A70" alt="Ibrahim's GitHub streak" />
   </a>
-  <a href="https://github.com/Locked-Cloud">
-    <img height="158" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Locked-Cloud&layout=compact&title_color=C4552D&icon_color=1F7A70&text_color=1A1512&bg_color=F5EDE0&hide_border=true&langs_count=8" alt="Top languages" />
-  </a>
+</div>
+
+<div align="center">
+  <img src="https://ghchart.rshah.org/C4552D/Locked-Cloud" alt="Ibrahim's contribution chart" width="100%" />
 </div>
 
 ## 🌱 Currently
