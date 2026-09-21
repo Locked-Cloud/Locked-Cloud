@@ -8,7 +8,7 @@
      dental-project · Smart-Parking-System · free-state · WebScraper_PlayWright
   3. Set your profile bio (160 chars) to:
      front-end & full-stack · React/TS · real-time 3D & SaaS · security & bug bounty
-  4. Fill the two TODOs in the CONTACT line: real email + LinkedIn URL.
+  4. DONE 2026-09-22: real email + LinkedIn + Hack The Box wired into the contact line.
   Palette: phosphor #3DFF88 · ink #050806 · deep #0A130C · mint #D8F5E4 ·
   gold #D9A441 — older themes archived in THEMES.md
 ════════════════════════════════════════════════════════════════════ -->
@@ -74,6 +74,7 @@ One product, 668 commits over 9 months: React 19 + Express 5, measured performan
 [![three.js](https://img.shields.io/badge/three.js-3dff88?style=flat-square&logo=threedotjs&logoColor=050806)](https://threejs.org)
 [![python](https://img.shields.io/badge/python-3dff88?style=flat-square&logo=python&logoColor=050806)](https://python.org)
 [![bug bounty](https://img.shields.io/badge/bug_bounty-3dff88?style=flat-square&logo=owasp&logoColor=050806)](https://owasp.org)
+[![hack the box](https://img.shields.io/badge/hackthebox-active-3dff88?style=flat-square&logo=hackthebox&logoColor=050806)](https://app.hackthebox.com/users/1908251)
 
 </div>
 
@@ -81,8 +82,8 @@ One product, 668 commits over 9 months: React 19 + Express 5, measured performan
 
 - Building **Bazarna** and an **LMS platform** — two SaaS products, one $0-infrastructure habit
 - Hunting **bug bounty** targets and taking binaries apart in **Ghidra** — Burp is a daily driver
-- Open to internships and junior front-end / full-stack roles
-- 📫 `[add email]` · `[add LinkedIn]` · or type `contact` in the [portfolio terminal](https://locked-cloud.github.io/portfolio)
+- Open to **remote · on-site · relocation · freelance** — internships and junior front-end / full-stack roles
+- 📫 [locked.cloud1day@gmail.com](mailto:locked.cloud1day@gmail.com) · [LinkedIn](https://www.linkedin.com/in/lockedcloud/) · [Hack The Box](https://app.hackthebox.com/users/1908251) · or type `contact` in the [portfolio terminal](https://locked-cloud.github.io/portfolio)
 
 <!-- Stats: github-readme-stats.vercel.app 503'd on deploy day, so these use
      streak-stats.demolab.com + ghchart.rshah.org — both verified 200, tinted
