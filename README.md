@@ -63,7 +63,7 @@ One product, 668 commits over 9 months: React 19 + Express 5, measured performan
 
 **systems** — C / C++ (ESP32 firmware, GPGPU simulation) · Python (YOLO · OpenCV · Playwright) · MATLAB · x86 assembly
 
-**security** — bug bounty hunting on web targets (XSS · IDOR · SSRF · SQLi · auth flaws) · Burp Suite · OWASP ZAP · nuclei · ffuf · reverse engineering with Ghidra · radare2 · x64dbg · secure coding (RLS models, scan-diff pipelines, tested tooling)
+**security** — bug bounty hunting on web targets (XSS · IDOR · SSRF · SQLi · auth flaws) · Burp Suite · OWASP ZAP · nuclei · ffuf · reverse engineering with Ghidra · radare2 · x64dbg · malware analysis (static triage · sandboxed dynamics · YARA) · secure coding (RLS models, scan-diff pipelines, tested tooling)
 
 <div align="center">
 
