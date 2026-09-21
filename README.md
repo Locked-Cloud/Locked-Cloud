@@ -1,76 +1,104 @@
 <!-- ═══════════════════════════════════════════════════════════════════
-  HOW TO USE — 3 steps, ~2 minutes:
-  1. Create a new GitHub repo named exactly:  Locked-Cloud
-     (github.com/new → name "Locked-Cloud" → Public → check "Add README")
-  2. Replace the auto-generated README.md content with this file.
-  3. Pin your repos in this order (profile → Customize pins):
+  IBRAHIM.SYS profile README — matches the portfolio terminal at
+  locked-cloud.github.io/portfolio (green phosphor, dark ink, gold accent).
+  HOW TO USE:
+  1. This file lives in the repo  Locked-Cloud/Locked-Cloud  as README.md —
+     it renders automatically on your GitHub profile page.
+  2. Pin your repos (profile → Customize pins):
      dental-project · Smart-Parking-System · free-state · WebScraper_PlayWright
-     (swap in AC_Ecommerce / ModelDesk when they exist)
-  Also set your profile bio (160 chars) to:
-    Front-end from Cairo · React/TS · real-time 3D & SaaS · building Bazarna
-  Banner: this theme expects banner.png (1200×300, sand background, bazaar
-  alley illustration). Until you have one, the header below stays text-only —
-  it already looks good without it. When ready, uncomment the <img> line.
-  Palette (Neo-Bazaar): sand #F5EDE0 · ink #1A1512 · terracotta #C4552D ·
-  nile-teal #1F7A70 · gold #D9A441 — alternatives in THEMES.md
+  3. Set your profile bio (160 chars) to:
+     front-end & full-stack · React/TS · real-time 3D & SaaS · security & bug bounty
+  4. Fill the two TODOs in the CONTACT line: real email + LinkedIn URL.
+  Palette: phosphor #3DFF88 · ink #050806 · deep #0A130C · mint #D8F5E4 ·
+  gold #D9A441 — older themes archived in THEMES.md
 ════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- <img src="banner.png" alt="Ibrahim Ahmed — front-end engineer from Cairo" width="100%" /> -->
+# IBRAHIM AHMED
 
-# Ibrahim Ahmed
-
-**Front-end engineer · Cairo, Egypt 🇪🇬**
-
-I build interfaces that feel like Cairo, not California —
-real-time 3D web, SaaS products, and ML that runs on $45 hardware.
+**front-end & full-stack engineer** — real-time 3D · SaaS · edge ML · security
 
 *"Don't let other people write your script."*
+
+[![portfolio](https://img.shields.io/badge/IBRAHIM.SYS-3dff88?style=flat-square&logo=github&logoColor=050806)](https://locked-cloud.github.io/portfolio)
+[![cv](https://img.shields.io/badge/cv-printable-0a130c?style=flat-square&labelColor=0a130c&color=3dff88)](https://locked-cloud.github.io/portfolio/cv.html)
+[![devlog rss](https://img.shields.io/badge/devlog-rss-0a130c?style=flat-square&labelColor=0a130c&color=3dff88)](https://locked-cloud.github.io/portfolio/rss.xml)
 
 </div>
 
 ---
 
-## 🏛️ Featured work
+```text
+ibrahim@sys:~$ whoami
+front-end & full-stack engineer — React, TypeScript, Node, Flutter
+ibrahim@sys:~$ cat focus.txt
+real-time 3D web · SaaS on $0 · edge ML · bug bounty & reverse engineering
+ibrahim@sys:~$ uptime --verbose
+3+ years shipping — still studying, still shipping
+ibrahim@sys:~$ _
+```
 
-🦷 **[PULPOVR — Live Endodontic Guidance System](https://github.com/Locked-Cloud/dental-project)**
-A real-time dental digital twin: a 6-DOF IMU mounted on a handpiece streams telemetry at 40 Hz over WebSocket into an interactive Three.js molar — with an apex-locator safety HUD and student analytics. React 18 + TypeScript + Express + ESP32 firmware, written end to end.
+## ⚡ Featured work
+
+🦷 **[PULPOVR — Live Endodontic Guidance](https://github.com/Locked-Cloud/dental-project)**
+A real-time dental digital twin: a 6-DOF IMU mounted on a handpiece streams telemetry at 40 Hz over WebSocket into an interactive Three.js molar — apex-locator safety HUD, trajectory panels, student analytics. React 18 + TypeScript + Express + ESP32 firmware, written end to end.
 
 🅿️ **[Smart Parking Detection System](https://github.com/Locked-Cloud/Smart-Parking-System)**
-Edge ML, the whole lifecycle: capture → auto-label → two-stage YOLO fine-tune → NCNN export → real-time inference on a Raspberry Pi 4 at 12–20 FPS with temporal smoothing. Ships with a plug-and-play baseline model.
+Edge ML, the whole lifecycle: capture → auto-label → two-stage YOLO fine-tune → NCNN export → real-time inference on a Raspberry Pi 4 at 12–20 FPS. Ships with a plug-and-play baseline model and a full deployment guide.
 
-🏬 **Bazarna — Egypt-first SaaS ecommerce** *(in progress)*
-Multi-tenant storefronts with Egyptian payments (COD, InstaPay, Fawry, wallets), Arabic-first RTL, a page builder, and a haggling engine «فاوضني». React + Supabase + Cloudflare Pages on a $0 stack.
+🏬 **Bazarna — marketplace SaaS** *(in progress)*
+Multi-tenant storefronts with local-first payments (COD · InstaPay · Fawry · wallets), a visual page builder, a haggling engine (*fawadni*), and an AI merchant twin. React + Supabase (RLS, Edge Functions, pg_cron) on a $0 stack.
+
+🔐 **LMS platform** *(private — ask me)*
+One product, 668 commits over 9 months: React 19 + Express 5, measured performance work, per-tenant SEO, and a **security scan-diff tool with a 23-test suite** — where the security habit got production reps.
 
 ## 🛠️ Stack
 
-**Front-end** — React 18/19 · TypeScript · Vite · Tailwind CSS v4 · Three.js / React-Three-Fiber · MUI · TanStack Query · Zustand
+**front-end** — React 18/19 · TypeScript · Vite · Tailwind CSS v4 · Three.js / React-Three-Fiber · MUI · TanStack Query · Zustand
 
-**Back-end** — Node.js / Express · Supabase (Postgres, RLS, Edge Functions, pg_cron) · Firebase
+**back-end** — Node.js / Express 5 · Supabase (Postgres · Row-Level Security · Edge Functions · pg_cron) · Firebase · WebSocket APIs · JWT & OTP flows
 
-**Systems & data** — C / C++ (ESP32, GPGPU simulation) · Python (YOLO, OpenCV, Playwright) · MATLAB · Assembly
+**mobile** — Flutter · Dart
 
-<!-- Stats: github-readme-stats.vercel.app was returning 503 on deploy day, so
-     these use streak-stats.demolab.com + ghchart.rshah.org (both verified 200,
-     both custom-tinted to the palette). To switch back to the classic cards,
-     restore the github-readme-stats URLs with the same color params. -->
-<div align="center">
-  <a href="https://github.com/Locked-Cloud">
-    <img height="160" src="https://streak-stats.demolab.com/?user=Locked-Cloud&hide_border=true&background=F5EDE0&ring_color=C4552D&fire_color=D9A441&currStreakNum_color=1A1512&sideNums_color=1A1512&currStreakLabel_color=C4552D&sideLabels_color=1F7A70&text_color=1A1512&dates_color=1F7A70" alt="Ibrahim's GitHub streak" />
-  </a>
-</div>
+**systems** — C / C++ (ESP32 firmware, GPGPU simulation) · Python (YOLO · OpenCV · Playwright) · MATLAB · x86 assembly
+
+**security** — bug bounty hunting on web targets (XSS · IDOR · SSRF · SQLi · auth flaws) · Burp Suite · OWASP ZAP · nuclei · ffuf · reverse engineering with Ghidra · radare2 · x64dbg · secure coding (RLS models, scan-diff pipelines, tested tooling)
 
 <div align="center">
-  <img src="https://ghchart.rshah.org/C4552D/Locked-Cloud" alt="Ibrahim's contribution chart" width="100%" />
+
+[![react](https://img.shields.io/badge/react-3dff88?style=flat-square&logo=react&logoColor=050806)](https://react.dev)
+[![typescript](https://img.shields.io/badge/typescript-3dff88?style=flat-square&logo=typescript&logoColor=050806)](https://typescriptlang.org)
+[![node](https://img.shields.io/badge/node.js-3dff88?style=flat-square&logo=nodedotjs&logoColor=050806)](https://nodejs.org)
+[![flutter](https://img.shields.io/badge/flutter-3dff88?style=flat-square&logo=flutter&logoColor=050806)](https://flutter.dev)
+[![three.js](https://img.shields.io/badge/three.js-3dff88?style=flat-square&logo=threedotjs&logoColor=050806)](https://threejs.org)
+[![python](https://img.shields.io/badge/python-3dff88?style=flat-square&logo=python&logoColor=050806)](https://python.org)
+[![bug bounty](https://img.shields.io/badge/bug_bounty-3dff88?style=flat-square&logo=owasp&logoColor=050806)](https://owasp.org)
+
 </div>
 
 ## 🌱 Currently
 
-- Building **Bazarna** and an LMS platform — two SaaS products, one $0-infrastructure habit
-- CS student in Cairo · open to internships and junior front-end roles
-- 📫 Reach me — [add email] · [add LinkedIn]
+- Building **Bazarna** and an **LMS platform** — two SaaS products, one $0-infrastructure habit
+- Hunting **bug bounty** targets and taking binaries apart in **Ghidra** — Burp is a daily driver
+- Open to internships and junior front-end / full-stack roles
+- 📫 `[add email]` · `[add LinkedIn]` · or type `contact` in the [portfolio terminal](https://locked-cloud.github.io/portfolio)
+
+<!-- Stats: github-readme-stats.vercel.app 503'd on deploy day, so these use
+     streak-stats.demolab.com + ghchart.rshah.org — both verified 200, tinted
+     to the phosphor palette. To switch back to the classic cards, restore the
+     github-readme-stats URLs with the same color params. -->
+<div align="center">
+  <a href="https://github.com/Locked-Cloud">
+    <img height="160" src="https://streak-stats.demolab.com/?user=Locked-Cloud&hide_border=true&background=0A130C&ring_color=3DFF88&fire_color=D9A441&currStreakNum_color=3DFF88&sideNums_color=D8F5E4&currStreakLabel_color=3DFF88&sideLabels_color=7FB894&text_color=D8F5E4&dates_color=7FB894" alt="streak" />
+  </a>
+</div>
 
 <div align="center">
-<sub>Profile in the <b>Neo-Bazaar</b> theme — sand · terracotta · nile-teal · gold.<br/>نفس الروح، شكل جديد — same spirit, new shape.</sub>
+  <img src="https://ghchart.rshah.org/3dff88/Locked-Cloud" alt="contributions" width="100%" />
+</div>
+
+<div align="center">
+<sub><b>IBRAHIM.SYS</b> — phosphor green · dark ink · one gold accent.<br/>
+This profile mirrors the portfolio terminal — go type <code>help</code> at locked-cloud.github.io/portfolio.</sub>
 </div>
